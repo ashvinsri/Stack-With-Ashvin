@@ -21,7 +21,7 @@ public class Test {
         }
         Stack<Integer> st=new Stack<Integer>();
         st.push(arr[0]);
-        System.out.print(1+" ");
+        System.out.print(-1+" ");
         for(int i=1;i<n;i++)
         {
             while(!st.isEmpty() && arr[i]>st.peek())
